@@ -8,7 +8,6 @@ export const ThemeSelector = () => {
   
     return (
       <div>
-        The current theme is: {type}
         <Switch
           checked={isDark}
           onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}

@@ -25,7 +25,7 @@ export function CustomNavbar(){
         </Navbar.Brand>
         <Navbar.Content hideIn="xs" variant="highlight-rounded">
           <Navbar.Link isActive href="#">Home</Navbar.Link>
-          <Navbar.Link  href="#">About</Navbar.Link>
+          <Navbar.Link  href="/about">About</Navbar.Link>
           <Navbar.Link href="#">Pricing</Navbar.Link>
           <Navbar.Link href="#">Company</Navbar.Link>
         </Navbar.Content>
